@@ -39,7 +39,7 @@ app.get('/contact', (req, res)=> {
 
 const mongoose = require('mongoose');
 // mongoose.connect('mongodb://localhost/my_database', {useNewUrlParser: true});
-mongoose.connect('mongodb+srv://extreme:welcome123@cluster0.nq86q.mongodb.net/my_database?retryWrites=true&w=majority', {useNewUrlParser: true})
+mongoose.connect('mongodb+srv://username:pass@cluster0.nq86q.mongodb.net/my_database?retryWrites=true&w=majority', {useNewUrlParser: true})
 
 // is a two-level route and can ’ t reference the
 // required static files for e.g. in header.ejs
